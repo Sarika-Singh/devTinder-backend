@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const { userAuth } = require("../middlewares/auth");
 const ConnectionRequest = require("../models/ConnectionRequest");
-const User = require("../models/User");
+const User = require("../models/user");
 
 const USER_FIELDS = "firstName lastName photoUrl skills age about gender";
 
